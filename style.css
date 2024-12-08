@@ -1,0 +1,213 @@
+:root{
+--Orange: hsl(25, 97%, 53%);
+--White: hsl(0, 0%, 100%);
+--LightGrey: hsl(217, 12%, 63%);
+--DarkBlue: hsl(213, 19%, 18%);
+--VeryDarkBlue: hsl(216, 12%, 8%);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--VeryDarkBlue);
+    height: 100vh;
+    font-family: "Overpass", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#main-container {
+    max-width: 350px;
+    background-color: var(--DarkBlue);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#star {
+    text-align: left;
+    margin-bottom: 10px;
+    color: var(--Orange);
+    padding: 10px;
+    border-radius: 50px;
+    background-color: var(--VeryDarkBlue);
+}
+
+#main-container h1 {
+    color: var(--White);
+    text-align: left;
+    font-weight: 700;
+}
+
+#main-container  p {
+    font-weight: 700;
+    color: var(--LightGrey);
+}
+
+#no-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+#one {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: var(--VeryDarkBlue);
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: var(--White);
+    font-weight: 700;
+}
+
+#two {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: var(--VeryDarkBlue);
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: var(--White);
+    font-weight: 700;
+}
+
+#three {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: var(--VeryDarkBlue);
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: var(--White);
+    font-weight: 700;
+}
+
+#four {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: var(--VeryDarkBlue);
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: var(--White);
+    font-weight: 700;
+}
+
+#five {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: var(--VeryDarkBlue);
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: var(--White);
+    font-weight: 700;
+}
+
+
+
+#submit-btn button {
+    width: 100%;
+    background-color: var(--Orange);
+    padding: 15px 25px;
+    border-radius: 15px;
+    border: none;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+#no-btn div:hover {
+    background-color: var(--Orange);
+    color: var(--VeryDarkBlue);
+}
+
+#Message {
+    display: none;
+    max-width: 350px;
+    background-color: var(--DarkBlue);
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#rating {
+    padding: 10px 13px;
+    border-radius: 15px;
+    background-color: var(--VeryDarkBlue);
+    color: var(--Orange);
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+#Message h1 {
+    color: var(--White);
+    font-weight: 700;
+}
+
+#Message p {
+    font-weight: 700;
+    color: var(--LightGrey);
+}
+
+#Message-image {
+    margin-bottom: 20px;
+}
+
+#back {
+    padding: 15px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: var(--VeryDarkBlue);
+    margin: auto;
+}
+
+#back i {
+    color: var(--White);
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
